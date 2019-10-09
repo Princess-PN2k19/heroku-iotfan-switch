@@ -1,0 +1,35 @@
+<html>
+
+<head lang="en">
+    <title>PJ's</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <div class="page-header">
+            <h1>IoT Fan Switch</h1>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h1>Status: </h1>
+            <p id="stat"></p>
+        </div>
+        <div>
+            <button id="off" type="button" class="btn btn-danger btn-lg"><b>Off</b></button>
+            <button id="one" type="button" class="btn btn-success btn-lg"><b>1</b></button>
+            <button id="two" type="button" class="btn btn-success btn-lg"><b>2</b></button>
+            <button id="three" type="button" class="btn btn-success btn-lg"><b>3</b></button>
+        </div>
+    </center>
+</body>
+
+<script src="/browser-mqtt.js"></script>
+<script src="/controller.js"></script>
+
+</html>

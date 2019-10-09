@@ -1,0 +1,25 @@
+{
+  "name": "heroku-iotfan-switch",
+  "version": "1.0.0",
+  "description": "IoT Fan Switch with MQTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Princess-PN2k19/heroku-iotfan-switch.git"
+  },
+  "author": "Princess Joy C. Duran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Princess-PN2k19/heroku-iotfan-switch/issues"
+  },
+  "homepage": "https://github.com/Princess-PN2k19/heroku-iotfan-switch#readme",
+  "engines": {
+    "node": "10.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
